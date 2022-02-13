@@ -1,0 +1,2 @@
+# ZNUlnx-adobeconn-resolver
+# BrowserAddOns
