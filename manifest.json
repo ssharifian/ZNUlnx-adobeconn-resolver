@@ -1,9 +1,8 @@
 {
-
   "description": "Resolve adobe connect webview in linux system for using in University of Zanjan domain",
   "manifest_version": 2,
   "name": "ZNUlnx-adobeconn-resolver",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/ssharifian/ZNUlnx-adobeconn-resolver",
   "icons": {
     "48": "icons/znu-48.png"
@@ -15,5 +14,4 @@
       "js": ["redirect.js"]
     }
   ]
-
 }
