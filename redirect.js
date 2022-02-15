@@ -1,9 +1,18 @@
 
-var
-    addressUrl = document.getElementById('urlbar');
-    url = document.URL
-    returl = url.replace('system/get-player?urlPath=/','');
-    finalurl = returl.concat("?html-view=true")
+platform  = navigator.platform
+//window.alert(platform);
 
-window.location.replace(finalurl);
+if (platform == 'Linux x86_64')
+{
+var
+    url = document.URL
+    tmpurl = url.replace('system/get-player?urlPath=/','');
+    finalurl = tmpurl.concat("?html-view=true")
+
+    window.location.replace(finalurl);
+}
+
+
+
+
 
